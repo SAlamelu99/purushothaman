@@ -127,7 +127,12 @@ s}
 .pricing-column{
   padding: 3% 2%;
 }
-
+@media (max-width:1040px) {
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
 /* cta */
 
 #cta{
